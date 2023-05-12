@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid gray;;
+    
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.rows {
+    box-sizing: border-box;
+    border: 0.5px solid gray;
+    width: 20px;
+    height: 20px;
+
+
+}
