@@ -1,28 +1,44 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    display: block;
+}
+
+.reset {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
 }
 
 .grid {
+    width: 500px;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    border: 0.5px solid gray;;
-    
+    border: 0.5px solid gray;
+    flex-wrap: wrap;
 }
 
-.columns {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-
-.rows {
+.cell {
+    text-align: center;
+    display: inline-flex;
     box-sizing: border-box;
     border: 0.5px solid gray;
-    width: 20px;
-    height: 20px;
-
-
 }
